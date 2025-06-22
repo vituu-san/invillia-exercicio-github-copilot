@@ -142,3 +142,30 @@ footer {
   padding: 20px;
   color: #666;
 }
+
+.participants-container {
+  margin-top: 20px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #f1f8e9;
+}
+
+.participants-container h4 {
+  margin-bottom: 10px;
+  color: #558b2f;
+}
+
+.participants-container ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.participants-container li {
+  padding: 5px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.participants-container li:last-child {
+  border-bottom: none;
+}
